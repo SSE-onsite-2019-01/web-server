@@ -3,5 +3,5 @@
 2. type this command
 ```
 docker build . -t mypython
-docker run -v ${pwd}/:/home/ -it mypython bash # ${pwd} cant use in Windows??
+docker run -v /your/directory/path/:/home/ -it mypython bash 
 ```
